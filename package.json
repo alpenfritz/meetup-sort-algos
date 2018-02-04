@@ -4,12 +4,16 @@
   "description": "Meetup - Introduction to Sorting Algorithms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bubble": "node ./solutions/bubble.js",
+    "insertion": "node ./solutions/insertion.js",
+    "quick": "node ./solutions/quick.js",
+    "merge": "node ./solutions/merge.js",
+    "practiceBubble": "node ./practice/practiceBubble.js",
+    "practiceInsertion": "node ./practice/practiceInsertion.js",
+    "practiceQuick": "node ./practice/practiceQuick.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alpenfritz/meetup-sort-algos.git"
-  },
-  "author": "",
-  "license": ""
+  }
 }
